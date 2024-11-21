@@ -12,3 +12,8 @@ class GameForm(forms.ModelForm):
     class Meta:
         model = Game
         fields = ['game_name', 'game_type', 'image']
+        labels = {
+            'game_name': '',
+            'game_type': '',
+            'image': '',
+        }
