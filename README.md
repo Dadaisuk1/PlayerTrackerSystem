@@ -1,6 +1,6 @@
 
 ## Player Tracker System
-# Powered by Django
+### Powered by Django
 >A Comprehensive System Management Solution
 
 This Django and CSS-based application is designed to streamline and optimize system management processes. Developed for the Information Management 2 finals, it offers a robust and user-friendly interface.
