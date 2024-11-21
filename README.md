@@ -35,3 +35,8 @@ Upload your committed changes to the remote repository:
 ```
 
 ### By following these steps, you can effectively manage your codebase and collaborate with your team.
+
+https://cebuinstituteoftechnology-my.sharepoint.com/:x:/g/personal/darwindarryljean_largoza_cit_edu/EZEP77oURa5GuYXVeLkK-VkBcnK7KrnRwn5fhMBA_GeUsg?e=uedodf
+
+[![My Skills](https://skillicons.dev/icons?i=figma&theme=light)](https://skillicons.dev)
+https://www.figma.com/proto/WjXHMBKKt3egnEBv4CqToQ/Player-Tracker-Statistics?node-id=0-1&t=1pEykEsoptjxdhtC-1
