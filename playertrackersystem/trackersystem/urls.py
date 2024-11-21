@@ -15,18 +15,11 @@ urlpatterns = [
     path('hero/delete/<int:id>/', views.hero_delete, name='hero_delete'),
 
     # Game URLs
-<<<<<<< Updated upstream
-    # path('game/create/', views.game_create, name='game_create'),
-    # path('game/update/<int:game_id>/', views.game_update, name='game_update'),
-    # path('game/delete/<int:game_id>/', views.game_delete, name='game_delete'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-=======
     path('game/<str:game_name>/', views.game_detail, name='game_detail'),
     path('game/create/', views.game_create, name='game_create'),
     path('game/update/<int:game_id>/', views.game_update, name='game_update'),
     path('game/delete/<int:game_id>/', views.game_delete, name='game_delete'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
->>>>>>> Stashed changes
 
 # if settings.DEBUG:
 #     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
