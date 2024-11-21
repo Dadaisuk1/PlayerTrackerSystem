@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayerTracker</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/PTS icon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <!-- Logo -->
+        {% comment %} <img src="{% static 'images/PlayerTracker.png' %}" alt="Player Tracker Logo"> {% endcomment %}
+        <div class="logo">
+            <span class="player">Player</span><span class="tracker">Tracker</span>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <!-- Login/Sign Up Links -->
+        <div class="auth-links">
+            <a href="#">Login</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Landing Page Content -->
+    <div class="container">
+        <h1 class="all-games">All Games</h1>
+    
+        {% for game in games %}
+        <div class="game-card">
+            <img src="{{ game.image.url }}" alt="{{ game.game_name }}" class="game-image">
+            <h2 class="game-title">{{ game.game_name }}</h2>
+        </div>
+        {% endfor %}
+    </div>    
+</body>
+</html>
