@@ -27,8 +27,13 @@
 
         <!-- Login/Sign Up Links -->
         <div class="auth-links">
+<<<<<<< Updated upstream
             <a href="#">Login</a>
             <a href="#">Sign Up</a>
+=======
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'register' %}">Register</a>
+>>>>>>> Stashed changes
         </div>
     </div>
 
@@ -38,10 +43,14 @@
     
         {% for game in games %}
         <div class="game-card">
-            <img src="{{ game.image.url }}" alt="{{ game.game_name }}" class="game-image">
-            <h2 class="game-title">{{ game.game_name }}</h2>
+            <!-- Link the game card to its detail page -->
+            <a href="{% url 'game_detail' game_name=game.game_name %}">
+                <img src="{{ game.image.url }}" alt="{{ game.game_name }}" class="game-image">
+                <h2 class="game-title">{{ game.game_name }}</h2>
+            </a>
         </div>
         {% endfor %}
-    </div>    
+    </div>
+    
 </body>
 </html>
