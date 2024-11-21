@@ -9,7 +9,7 @@ def game_detail(request, game_name):
     return render(request, 'game_detail.html', {'game': game})
 
 # Create your views here.
-def home_page(Httprequest):
+def home_page(request):
     games = Game.objects.all()
     return render(request, 'home.html', {'games': games})
 
