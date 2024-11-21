@@ -36,4 +36,4 @@ Upload your committed changes to the remote repository:
 
 ### By following these steps, you can effectively manage your codebase and collaborate with your team.
 
-[![My Skills](https://skillicons.dev/icons?i=figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=figma&theme=dark)](https://skillicons.dev)
