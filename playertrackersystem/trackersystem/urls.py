@@ -6,7 +6,7 @@ from . import views
 
 urlpatterns = [
     # path('', views.landing_page, name='landing_page'),  # Landing page as the root URL
-    path('', views.index, name='index'),
+    path('', views.home_page, name='home'),
 
     # Hero URLs
     # path('heroes/', views.hero_list, name='hero_list'),
