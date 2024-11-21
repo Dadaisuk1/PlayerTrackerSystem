@@ -15,6 +15,28 @@ The Player Tracker System is a user-friendly web application designed to track t
 [<img src="https://github.com/Dadaisuk1/playertrackersystem/blob/main/icons/excel.svg" alt="Excel Icon" width="48" height="48">](https://cebuinstituteoftechnology-my.sharepoint.com/:x:/g/personal/darwindarryljean_largoza_cit_edu/EZEP77oURa5GuYXVeLkK-VkBcnK7KrnRwn5fhMBA_GeUsg?e=2WDLcF)
 
 **For UI/UX design and Prototyping:** <br>
+
 [![My Skills](https://skillicons.dev/icons?i=figma,html,css&theme=dark)](https://www.figma.com/design/WjXHMBKKt3egnEBv4CqToQ/Player-Tracker-Statistics?node-id=0-1&t=zUkPcDDQ5tRJ1p2G-1)
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+
+<div>Row 1, Column 1</div>
+<div>Row 1, Column 2</div>
+<div>Row 1, Column 3</div>
+
+<div>Row 2, Column 1</div>
+<div>Row 2, Column 2</div>
+<div>Row 2, Column 3</div>
+
+<div>Row 3, Column 1</div>
+<div>Row 3, Column 2</div>
+<div>Row 3, Column 3</div>
+
+<div>Row 4, Column 1</div>
+<div>Row 4, Column 2</div>
+<div>Row 4, Column 3</div>
+
+</div>
+
 
 ---
