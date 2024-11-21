@@ -11,13 +11,4 @@ class HeroForm(forms.ModelForm):
 class GameForm(forms.ModelForm):
     class Meta:
         model = Game
-<<<<<<< Updated upstream
         fields = ['game_name', 'game_type', 'image']
-        labels = {
-            'game_name': '',
-            'game_type': '',
-            'image': '',
-        }
-=======
-        fields = ['game_name', 'game_type', 'image']
->>>>>>> Stashed changes
