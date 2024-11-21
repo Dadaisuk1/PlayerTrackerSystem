@@ -1,12 +1,12 @@
 # urls.py
-from django.urls import path
-from . import views
 from django.conf import settings
 from django.conf.urls.static import static
+from django.urls import path
+from . import views
 
 urlpatterns = [
     # path('', views.landing_page, name='landing_page'),  # Landing page as the root URL
-    path('', views.home_page, name='home'),
+    path('', views.index, name='index'),
 
     # Hero URLs
     # path('heroes/', views.hero_list, name='hero_list'),
@@ -18,7 +18,7 @@ urlpatterns = [
     # path('game/create/', views.game_create, name='game_create'),
     # path('game/update/<int:game_id>/', views.game_update, name='game_update'),
     # path('game/delete/<int:game_id>/', views.game_delete, name='game_delete'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # if settings.DEBUG:
 #     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
