@@ -51,6 +51,7 @@ body {
     object-fit: cover;
     border-radius: 20px;
     border: solid 4px #D1F1FF;
+    cursor: pointer;
 }
 
 .game-title {
@@ -58,6 +59,7 @@ body {
     margin-top: 10px;
     color: #D1F1FF;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Button styles inside game cards */
@@ -106,6 +108,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .player {

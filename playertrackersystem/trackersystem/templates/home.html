@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Player Tracker</title>
+    <title>PlayerTracker</title>
     {% load static %}
-    <link rel="icon" href="{% static 'images/PlayerTracker.png' %}">
+    <link rel="icon" href="{% static 'images/PTS icon.png' %}">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
 <body>
@@ -36,23 +36,12 @@
     <div class="container">
         <h1 class="all-games">All Games</h1>
     
+        {% for game in games %}
         <div class="game-card">
-            <img src="{% static 'images/Image Dota.jpg' %}" alt="Game 1" class="game-image">
-            <h2 class="game-title">Dota 2</h2>
+            <img src="{{ game.image.url }}" alt="{{ game.game_name }}" class="game-image">
+            <h2 class="game-title">{{ game.game_name }}</h2>
         </div>
-        <div class="game-card">
-            <img src="{% static 'images/Image Lol.jpg' %}" alt="Game 2" class="game-image">
-            <h2 class="game-title">Leauge of Legends</h2>
-        </div>
-        <div class="game-card">
-            <img src="{% static 'images/Image MLBB.jpg' %}" alt="Game 3" class="game-image">
-            <h2 class="game-title">Mobile Legends: Bang Bang</h2>
-        </div>
-        <div class="game-card">
-            <img src="{% static 'images/Image HoK.jpg' %}" alt="Game 4" class="game-image">
-            <h2 class="game-title">Honor of Kings</h2>
-        </div>
-        <!-- Add more game cards as needed -->
-    </div>
+        {% endfor %}
+    </div>    
 </body>
 </html>
