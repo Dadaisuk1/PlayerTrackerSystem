@@ -11,9 +11,6 @@ def game_detail(request, game_name):
 # Create your views here.
 def home_page(Httprequest):
     games = Game.objects.all()
-<<<<<<< Updated upstream
-    return render(Httprequest, 'home.html', {'games': games})
-=======
     return render(request, 'home.html', {'games': games})
 
 # CREATE - Add a new game
@@ -86,4 +83,3 @@ def hero_delete(request, id):
         hero.delete()
         return redirect('hero_list')
     return render(request, 'HeroApp/hero_confirm_delete.html', {'hero': hero})
->>>>>>> Stashed changes
