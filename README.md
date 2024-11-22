@@ -11,11 +11,11 @@ The Player Tracker System is a user-friendly web application designed to track t
 
 **For Team Collaboration and Assigned Works:** <br>
 
-[<img src="https://github.com/Dadaisuk1/playertrackersystem/blob/main/icons/excel.svg" alt="Excel Icon" width="48" height="48">](https://cebuinstituteoftechnology-my.sharepoint.com/:x:/g/personal/darwindarryljean_largoza_cit_edu/EZEP77oURa5GuYXVeLkK-VkBcnK7KrnRwn5fhMBA_GeUsg?e=2WDLcF)
+[<img src="https://github.com/Dadaisuk1/playertrackersystem/blob/main/icons/excel.svg" alt="Excel Icon" width="48" height="48">](https://cebuinstituteoftechnology-my.sharepoint.com/:x:/g/personal/darwindarryljean_largoza_cit_edu/EZEP77oURa5GuYXVeLkK-VkBcnK7KrnRwn5fhMBA_GeUsg?e=2WDLcF) <- Click to view Ghant Chart
 
 **For UI/UX design and Prototyping:** <br>
 
-[![My Skills](https://skillicons.dev/icons?i=figma&theme=dark)](https://www.figma.com/design/WjXHMBKKt3egnEBv4CqToQ/Player-Tracker-Statistics?node-id=0-1&t=zUkPcDDQ5tRJ1p2G-1)
+[![My Skills](https://skillicons.dev/icons?i=figma&theme=dark)](https://www.figma.com/design/WjXHMBKKt3egnEBv4CqToQ/Player-Tracker-Statistics?node-id=0-1&t=zUkPcDDQ5tRJ1p2G-1) <- Click to view Figma
 
 
 ## Developers
