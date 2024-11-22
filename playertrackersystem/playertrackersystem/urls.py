@@ -23,4 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include("trackersystem.urls")),
     path('accounts/', include('accounts.urls')),
+     path('item/', include('item_app.urls')),  # Include item_app URLs
+    path('', views.item_list, name='item_list'),
 ]
