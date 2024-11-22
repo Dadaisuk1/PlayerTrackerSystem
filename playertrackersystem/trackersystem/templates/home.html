@@ -19,11 +19,12 @@
         <!-- Navigation Links -->
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Apps</a></li>
+            {% comment %} <li><a href="#">Apps</a></li>
             <li><a href="#">Developers</a></li>
             <li><a href="#">Support</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="{% url 'hero_create' %}">Create Hero</a></li>
+            <li><a href="#">About</a></li> {% endcomment %}
+            <li><a href="{% url 'hero_list' %}">Add Hero</a></li>
+            <li><a href="{% url 'game_create' %}">Add Game</a></li>
         </ul>
 
         <!-- Login/Sign Up Links -->

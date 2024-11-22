@@ -17,6 +17,10 @@ body {
     margin-top: 70px; /* To prevent overlap with navbar */
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Main container for the landing page */
 .container {
     text-align: center;

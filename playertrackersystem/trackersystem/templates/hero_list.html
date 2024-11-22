@@ -8,29 +8,6 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
-            <!-- Logo -->
-            {% comment %} <img src="{% static 'images/PlayerTracker.png' %}" alt="Player Tracker Logo"> {% endcomment %}
-            <div class="logo">
-                <span class="player">Player</span><span class="tracker">Tracker</span>
-            </div>
-    
-            <!-- Navigation Links -->
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Apps</a></li>
-                <li><a href="#">Developers</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="{% url 'hero_create' %}">Create Hero</a></li>
-            </ul>
-    
-            <!-- Login/Sign Up Links -->
-            <div class="auth-links">
-                <a href="{% url 'login' %}">Login</a>
-                <a href="{% url 'register' %}">Register</a>
-            </div>
-        </div>
         <div class="wrapper">
             <h1>Hero List</h1>
             <ul class="hero-list">
@@ -47,6 +24,7 @@
             </ul>
         </div>
         <a href="{% url 'hero_create' %}" class="btn-add">Add New Hero</a>
+        <a href="{% url 'home' %}">Back</a>
     </div>
 </body>
 </html>
