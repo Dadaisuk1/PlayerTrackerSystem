@@ -5,6 +5,7 @@ from . import views  # Import your views
 urlpatterns = [
     # Default route to login page
     # path('', views.home_page, name='home'),
+    path('home/', views.home_page, name='home'),
     path('logout/', views.logout_view, name='logout'),  # Logout route
     path('login/', views.login_view, name='login'),
     path('register/', views.register_player, name='register'),  # Registration page
