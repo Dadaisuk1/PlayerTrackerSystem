@@ -151,20 +151,20 @@
         <h1>Item List</h1>
         <a href="{% url 'item_create' %}" class="create-button">Create New Item</a>
         <ul>
-            {% for item in items %}
+            {% for inventory in items %}
                 <li>
                     <div class="item-info">
                         <!-- Use the provided image link as the source for the icon -->
-                        <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png" alt="{{ item.item_name }} Icon">
+                        <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png" alt="{{ inventory.item_name }} Icon">
                         <div>
-                            <p><strong>ID:</strong> {{ item.item_id }}</p>
-                            <p><strong>Name:</strong> {{ item.item_name }}</p>
-                            <p><strong>Cost:</strong> ${{ item.cost }}</p>
+                            <p><strong>ID:</strong> {{ inventory.item_id }}</p>
+                            <p><strong>Name:</strong> {{ inventory.item_name }}</p>
+                            <p><strong>Cost:</strong> ${{ inventory.cost }}</p>
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="{% url 'item_update' item.pk %}" class="edit">Edit</a>
-                        <a href="{% url 'item_delete' item.pk %}" class="delete">Delete</a>
+                        <a href="{% url 'item_update' inventory.pk %}" class="edit">Edit</a>
+                        <a href="{% url 'item_delete' inventory.pk %}" class="delete">Delete</a>
                     </div>
                 </li>
             {% empty %}

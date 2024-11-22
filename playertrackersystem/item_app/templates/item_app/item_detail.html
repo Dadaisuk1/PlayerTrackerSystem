@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ item.item_name }} - Details</title>
+    <title>{{ inventory.item_name }} - Details</title>
     <style>
         /* Reset margin and padding */
         * {
@@ -109,15 +109,15 @@
 <body>
     <div class="container">
         <h1>Updated Item Detail</h1>
-        <h2>Item Name: {{ item.item_name }}</h2>
+        <h2>Item Name: {{ inventory.item_name }}</h2>
         <table>
             <tr>
                 <th>Type</th>
-                <td>{{ item.item_type }}</td>
+                <td>{{ inventory.item_type }}</td>
             </tr>
             <tr>
                 <th>Cost</th>
-                <td>{{ item.cost }}</td>
+                <td>{{ inventory.cost }}</td>
             </tr>
         </table>
         

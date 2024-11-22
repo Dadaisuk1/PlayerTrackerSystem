@@ -1,8 +1,8 @@
 # forms.py
 from django import forms
-from .models import inventory
+from .models import Item
 
-class inventoryForms(forms.ModelForm):
+class ItemForm(forms.ModelForm):
     class Meta:
-        model = inventory
+        model = Item
         fields = ['item_name', 'item_type', 'cost']
